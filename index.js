@@ -1,0 +1,1 @@
+exports.evalExpr=s=>eval(s.replace(/-/g,'- ').replace(/(?<![\d.])0+(?=\d)/g,''))
